@@ -15,7 +15,6 @@ export class WebFormPage {
     private h1 = 'h1.display-6';
     private message = 'p.lead';
 
-
     constructor(page: Page) {
         this.page = page;
     }

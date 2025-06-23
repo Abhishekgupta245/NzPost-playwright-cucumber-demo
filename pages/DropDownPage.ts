@@ -9,8 +9,6 @@ export class DropDownPage {
     private greenDropDown = '#my-dropdown-2';
     private redDropDown = '#my-dropdown-3';
     
-
-
     constructor(page: Page) {
         this.page = page;
     }

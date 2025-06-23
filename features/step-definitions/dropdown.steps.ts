@@ -6,8 +6,6 @@ setDefaultTimeout(30 * 1000);
 let dropDownPage: DropDownPage;
 
 When('I go to the dropdown page', async function () {
-    //     browser = await chromium.launch({ headless: false });
-    // page = await browser.newPage();
     await this.page.click('a[href="dropdown-menu.html"]');
     dropDownPage = new DropDownPage(this.page);
 });

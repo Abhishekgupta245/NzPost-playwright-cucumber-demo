@@ -43,12 +43,13 @@ Genrating report:
 -----------------------------------------------------------------
 Run this command to generate the report:
 npm run report
-The report is stored under the 'reports' folder
+The report is stored under the 'reports' folder and opens in the browser upon execution
 
 Note:
 Tests run on Chromium browser by default in headed mode for visibility.
 
 Feature files and step definitions are under the features/ folder.
+Reuseable methods are under utilities.ts file
 
 Additional Notes
 This framework is a basic proof-of-concept created under time constraints.
